@@ -32,7 +32,7 @@ jobs:
           path: node_modules/.cache/prettier/.prettier-cache
           key: prettier-${{ hashFiles('package-lock.json') }}-${{ hashFiles('.gitignore') }}
       - run: npm run format
-      - run: git restore .github/workflows CHANGELOG.md
+      - run: git restore .github/workflows dist CHANGELOG.md
       - uses: actions/create-github-app-token@v1
         id: generate-token
         with:
