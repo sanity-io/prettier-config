@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/sanity-io/prettier-config/compare/v1.0.1...v1.0.2) (2024-04-18)
+
+
+### Bug Fixes
+
+* **docs:** incorrect setup instructions ([e9c9447](https://github.com/sanity-io/prettier-config/commit/e9c94471b790101af6f3446ae82fb82d186cf35e))
+
 ## [1.0.1](https://github.com/sanity-io/prettier-config/compare/v1.0.0...v1.0.1) (2024-04-18)
 
 
