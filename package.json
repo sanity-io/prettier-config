@@ -1,0 +1,55 @@
+{
+  "name": "@sanity/prettier-config",
+  "version": "0.0.0",
+  "description": "Sanity.io Prettier shared configuration",
+  "keywords": [
+    "sanity",
+    "sanity.io",
+    "studio",
+    "prettier",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/sanity-io/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/sanity-io/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sanity-io/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "pkg-utils build --strict --check --clean",
+    "format": "prettier --write --cache ."
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.5.0"
+  },
+  "devDependencies": {
+    "@sanity/pkg-utils": "6.7.1",
+    "prettier": "^3.2.5",
+    "typescript": "5.4.5"
+  }
+}
