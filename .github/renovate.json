@@ -3,9 +3,7 @@
   "extends": ["github>sanity-io/renovate-config", ":reviewer(team:ecosystem)"],
   "packageRules": [
     {
-      "matchDepNames": [
-        "prettier-plugin-packagejson"
-      ],
+      "matchDepNames": ["prettier-plugin-packagejson"],
       "semanticCommitType": "fix",
       "rangeStrategy": "bump"
     }

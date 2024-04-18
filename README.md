@@ -20,11 +20,11 @@ If you need to add more plugins, or extend the configuration, you'll need to cre
 ```js
 // .prettierrc.cjs or prettier.config.cjs
 
-const preset = require("@sanity/prettier-config");
+const preset = require('@sanity/prettier-config')
 
 module.exports = {
   ...preset,
-  plugins: [...preset.plugins, "prettier-plugin-tailwindcss"],
+  plugins: [...preset.plugins, 'prettier-plugin-tailwindcss'],
   experimentalTernaries: true,
-};
+}
 ```

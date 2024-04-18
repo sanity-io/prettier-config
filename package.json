@@ -35,14 +35,8 @@
     "dist"
   ],
   "scripts": {
-    "prepublishOnly": "pkg-utils build --strict --check",
-    "format": "prettier --write --cache ."
-  },
-  "peerDependencies": {
-    "prettier": "^3.2.5"
-  },
-  "publishConfig": {
-    "access": "public"
+    "format": "prettier --write --cache .",
+    "prepublishOnly": "pkg-utils build --strict --check"
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.5.0"
@@ -51,5 +45,11 @@
     "@sanity/pkg-utils": "6.7.1",
     "prettier": "^3.2.5",
     "typescript": "5.4.5"
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
