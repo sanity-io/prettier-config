@@ -11,7 +11,7 @@ Then add it to your `package.json` to install it:
 
 ```diff
    },
-+  "prettier": "extends @sanity/prettier-config",
++  "prettier": "@sanity/prettier-config",
    "dependencies": {
 ```
 
