@@ -8,28 +8,28 @@ import type {Config} from 'prettier'
  */
 const overridableDefaults = {
   endOfLine: 'lf',
-  tabWidth: 2,
+  tabWidth: 2 as const,
   useTabs: false,
 } satisfies Config
 
 const config = {
   ...overridableDefaults,
-  printWidth: 100,
+  printWidth: 100 as const,
   semi: false,
   singleQuote: true,
   quoteProps: 'consistent',
   bracketSpacing: false,
-  plugins: ['prettier-plugin-packagejson' as const],
+  plugins: ['prettier-plugin-packagejson'] as const,
   overrides: [
     {
-      files: ['*.json5'],
+      files: ['*.json5'] as const,
       options: {
         quoteProps: 'preserve',
         singleQuote: false,
       },
     },
     {
-      files: ['*.yml'],
+      files: ['*.yml'] as const,
       options: {
         singleQuote: false,
       },
