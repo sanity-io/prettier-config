@@ -1,6 +1,6 @@
 {
   "name": "@sanity/prettier-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sanity.io Prettier shared configuration",
   "keywords": [
     "sanity",
