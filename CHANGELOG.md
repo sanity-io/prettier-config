@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/sanity-io/prettier-config/compare/v1.0.3...v1.0.4) (2025-06-16)
+
+
+### Bug Fixes
+
+* **deps:** update prettier-plugin-packagejson to v2.5.15 ([e3c8ee5](https://github.com/sanity-io/prettier-config/commit/e3c8ee54b8b57b96742deb72fb79af0105372617))
+
 ## [1.0.3](https://github.com/sanity-io/prettier-config/compare/v1.0.2...v1.0.3) (2024-08-29)
 
 
