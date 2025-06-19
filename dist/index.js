@@ -2,6 +2,17 @@ const overridableDefaults = {
   endOfLine: "lf",
   tabWidth: 2,
   useTabs: !1
+}, json5 = {
+  files: ["*.json5"],
+  options: {
+    quoteProps: "preserve",
+    singleQuote: !1
+  }
+}, yaml = {
+  files: ["*.yml"],
+  options: {
+    singleQuote: !1
+  }
 }, config = {
   ...overridableDefaults,
   printWidth: 100,
@@ -10,21 +21,7 @@ const overridableDefaults = {
   quoteProps: "consistent",
   bracketSpacing: !1,
   plugins: ["prettier-plugin-packagejson"],
-  overrides: [
-    {
-      files: ["*.json5"],
-      options: {
-        quoteProps: "preserve",
-        singleQuote: !1
-      }
-    },
-    {
-      files: ["*.yml"],
-      options: {
-        singleQuote: !1
-      }
-    }
-  ]
+  overrides: [json5, yaml]
 };
 export {
   config as default
