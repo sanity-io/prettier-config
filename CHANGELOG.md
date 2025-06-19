@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/sanity-io/prettier-config/compare/v1.0.4...v1.0.5) (2025-06-19)
+
+
+### Bug Fixes
+
+* improve dts output ([6608181](https://github.com/sanity-io/prettier-config/commit/66081819e944aeca633746c29775a1a89121af07))
+
 ## [1.0.4](https://github.com/sanity-io/prettier-config/compare/v1.0.3...v1.0.4) (2025-06-16)
 
 
