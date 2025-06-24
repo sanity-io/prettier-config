@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/sanity-io/prettier-config/compare/v1.0.5...v1.0.6) (2025-06-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to ^3.6.0 ([#22](https://github.com/sanity-io/prettier-config/issues/22)) ([588483d](https://github.com/sanity-io/prettier-config/commit/588483d7ce866532f2ad5dabb78fd64a43cad3aa))
+
 ## [1.0.5](https://github.com/sanity-io/prettier-config/compare/v1.0.4...v1.0.5) (2025-06-19)
 
 
