@@ -15,14 +15,20 @@ Then add it to your `package.json` to install it:
    "dependencies": {
 ```
 
-If you need to add more plugins, or extend the configuration, you'll need to create a `.prettierrc.cjs`, or `prettier.config.cjs`, file instead of using the `prettier` field in `package.json`:
+When using `pnpm` you should add this to your `.npmrc` file:
+
+```properties
+public-hoist-pattern[]=*prettier*
+```
+
+If you need to add more plugins, or extend the configuration, you'll need to create a `prettier.config.mjs`, file instead of using the `prettier` field in `package.json`:
 
 ```js
-// .prettierrc.cjs or prettier.config.cjs
+// prettier.config.mjs
 
-const preset = require('@sanity/prettier-config')
+import preset from '@sanity/prettier-config'
 
-module.exports = {
+export default {
   ...preset,
   plugins: [...preset.plugins, 'prettier-plugin-tailwindcss'],
   experimentalTernaries: true,
