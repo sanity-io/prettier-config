@@ -27,6 +27,22 @@ const yaml = {
   },
 } satisfies NonNullable<Config['overrides']>[number]
 
+const oxc = {
+  files: ['**/*.{js,mjs,cjs,jsx}'] as const,
+  options: {
+    plugins: ['@prettier/plugin-oxc'] as const,
+    parser: 'oxc',
+  },
+} satisfies NonNullable<Config['overrides']>[number]
+
+const oxcTs = {
+  files: ['**/*.{ts,mts,cts,tsx}'] as const,
+  options: {
+    plugins: ['@prettier/plugin-oxc'] as const,
+    parser: 'oxc-ts',
+  },
+} satisfies NonNullable<Config['overrides']>[number]
+
 const config = {
   ...overridableDefaults,
   printWidth: 100 as const,
@@ -35,7 +51,7 @@ const config = {
   quoteProps: 'consistent',
   bracketSpacing: false,
   plugins: ['prettier-plugin-packagejson'] as const,
-  overrides: [json5, yaml] as [typeof json5, typeof yaml],
+  overrides: [json5, yaml, oxc, oxcTs] as [typeof json5, typeof yaml, typeof oxc, typeof oxcTs],
 } satisfies Config
 
 export default config

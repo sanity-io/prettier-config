@@ -8,5 +8,6 @@ export default defineConfig({
   },
   strictOptions: {
     noImplicitBrowsersList: 'off',
+    noCheckTypes: 'off',
   },
 })
