@@ -1,9 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>sanity-io/renovate-config", ":reviewer(team:ecosystem)"],
+  "extends": ["github>sanity-io/renovate-config"],
   "packageRules": [
     {
-      "matchDepNames": ["prettier-plugin-packagejson"],
+      "matchDepNames": ["@prettier/plugin-oxc", "prettier-plugin-packagejson", "prettier"],
       "semanticCommitType": "fix",
       "rangeStrategy": "bump"
     }
