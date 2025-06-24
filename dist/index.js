@@ -13,6 +13,18 @@ const overridableDefaults = {
   options: {
     singleQuote: !1
   }
+}, oxc = {
+  files: ["**/*.{js,mjs,cjs,jsx}"],
+  options: {
+    plugins: ["@prettier/plugin-oxc"],
+    parser: "oxc"
+  }
+}, oxcTs = {
+  files: ["**/*.{ts,mts,cts,tsx}"],
+  options: {
+    plugins: ["@prettier/plugin-oxc"],
+    parser: "oxc-ts"
+  }
 }, config = {
   ...overridableDefaults,
   printWidth: 100,
@@ -21,7 +33,7 @@ const overridableDefaults = {
   quoteProps: "consistent",
   bracketSpacing: !1,
   plugins: ["prettier-plugin-packagejson"],
-  overrides: [json5, yaml]
+  overrides: [json5, yaml, oxc, oxcTs]
 };
 export {
   config as default

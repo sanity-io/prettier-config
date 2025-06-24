@@ -43,7 +43,7 @@ jobs:
         with:
           cache: npm
           node-version: lts/*
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: "https://registry.npmjs.org"
       - run: npm clean-install --ignore-scripts
         if: ${{ steps.release.outputs.releases_created || github.event.inputs.publish == 'true' }}
       - run: npm audit signatures
