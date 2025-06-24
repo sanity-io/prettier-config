@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/sanity-io/prettier-config/compare/v1.0.6...v2.0.0) (2025-06-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* add `@prettier/plugin-oxc` ([#25](https://github.com/sanity-io/prettier-config/issues/25))
+
+### Features
+
+* add `@prettier/plugin-oxc` ([#25](https://github.com/sanity-io/prettier-config/issues/25)) ([6bda542](https://github.com/sanity-io/prettier-config/commit/6bda542a4a9ad8c23a9353c23c59180da2c4a157))
+
 ## [1.0.6](https://github.com/sanity-io/prettier-config/compare/v1.0.5...v1.0.6) (2025-06-24)
 
 
