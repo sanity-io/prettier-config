@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/sanity-io/prettier-config/compare/v2.0.0...v2.0.1) (2025-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update non-major ([#28](https://github.com/sanity-io/prettier-config/issues/28)) ([3481b0d](https://github.com/sanity-io/prettier-config/commit/3481b0d7b2ed903f27af8808676dd7f96cce78e3))
+
 ## [2.0.0](https://github.com/sanity-io/prettier-config/compare/v1.0.6...v2.0.0) (2025-06-24)
 
 
