@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/sanity-io/prettier-config/compare/v2.0.3...v2.0.4) (2025-12-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to ^3.7.3 ([#34](https://github.com/sanity-io/prettier-config/issues/34)) ([4a229b2](https://github.com/sanity-io/prettier-config/commit/4a229b27a829e2997899555a6077155d9488cde8))
+
 ## [2.0.3](https://github.com/sanity-io/prettier-config/compare/v2.0.2...v2.0.3) (2025-12-04)
 
 
