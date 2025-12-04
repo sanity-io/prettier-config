@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/sanity-io/prettier-config/compare/v2.0.2...v2.0.3) (2025-12-04)
+
+
+### Bug Fixes
+
+* handle oxc crash ([11d39e8](https://github.com/sanity-io/prettier-config/commit/11d39e81e9a76f3e56e5337155d3478d307280a2))
+
 ## [2.0.2](https://github.com/sanity-io/prettier-config/compare/v2.0.1...v2.0.2) (2025-11-25)
 
 
