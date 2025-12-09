@@ -39,7 +39,6 @@
     "prepublishOnly": "pkg-utils build --strict --check"
   },
   "dependencies": {
-    "@prettier/plugin-oxc": "^0.1.2",
     "prettier-plugin-packagejson": "^2.5.20"
   },
   "devDependencies": {
