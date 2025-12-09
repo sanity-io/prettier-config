@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.0](https://github.com/sanity-io/prettier-config/compare/v2.0.3...v3.0.0) (2025-12-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove @prettier/plugin-oxc for now
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to ^3.7.3 ([#34](https://github.com/sanity-io/prettier-config/issues/34)) ([4a229b2](https://github.com/sanity-io/prettier-config/commit/4a229b27a829e2997899555a6077155d9488cde8))
+* remove @prettier/plugin-oxc for now ([391a925](https://github.com/sanity-io/prettier-config/commit/391a92589d67a783a9946db4e41ba2f58268fe24))
+
 ## [2.0.3](https://github.com/sanity-io/prettier-config/compare/v2.0.2...v2.0.3) (2025-12-04)
 
 
