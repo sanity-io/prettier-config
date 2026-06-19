@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sanity-io/prettier-config.git"
+    "url": "git+https://github.com/sanity-io/prettier-config.git"
   },
   "license": "MIT",
   "author": "Sanity.io <hello@sanity.io>",
