@@ -39,15 +39,15 @@
     "prepublishOnly": "pkg-utils build --strict --check"
   },
   "dependencies": {
-    "prettier-plugin-packagejson": "^2.5.20"
+    "prettier-plugin-packagejson": "^2.5.22"
   },
   "devDependencies": {
     "@sanity/pkg-utils": "^7.11.9",
-    "prettier": "^3.7.3",
+    "prettier": "^3.9.6",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
-    "prettier": "^3.7.3"
+    "prettier": "^3.9.6"
   },
   "publishConfig": {
     "access": "public"
